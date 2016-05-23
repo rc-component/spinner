@@ -48,8 +48,8 @@ export default function (node, opts) {
     ctx.strokeStyle = 'rgba(' + rgb.r +', ' + rgb.g + ', ' + rgb.b+ ', 0.4)'
     ctx.arc(x, y, r, 0, Math.PI*2)
     ctx.lineWidth = opts.width || 4
+    ctx.lineCap = 'round'
     ctx.stroke()
-    ctx.endP
     let a = -Math.PI/2 + Math.PI*2*ts/duration
     let e = a + Math.PI/2
     ctx.beginPath()
