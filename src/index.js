@@ -13,7 +13,7 @@ export default class Spin extends Component {
   static propTypes = {
     color: PropTypes.string,
     height: PropTypes.number,
-    dura: PropTypes.number,
+    duration: PropTypes.number,
     lineWidth: PropTypes.number
   }
   componentDidMount() {
