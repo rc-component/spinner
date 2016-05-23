@@ -35,7 +35,8 @@ export default class Spin extends Component {
       height: props.height
     })
     return (
-      <div {...props} style={style}>{props.children}</div>
+      <div className={props.className}
+           style={style}>{props.children}</div>
     )
   }
 }
