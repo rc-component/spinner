@@ -8,8 +8,12 @@ Build with [webpack](https://webpack.github.io/) and [CSS Modules](https://githu
 
 ## Usage
 
+``` jsx
+<Spin lineWidth={1} color="#111111"/>
 ```
-<Spinner />
+
+``` jsx
+<Spin color="#ffffff"/>
 ```
 
 ## Props
