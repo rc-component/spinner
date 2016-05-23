@@ -12,8 +12,12 @@ function createCtx(node) {
   return ctx
 }
 
+const hex_reg = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i
 function torgb(hex) {
-  let result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex)
+  if (hex.length == 4) hex = hex.replace(/[^#]/g, function (p) {
+    return p + p
+  })
+  let result = hex_reg.exec(hex)
   return result ? {
       r: parseInt(result[1], 16),
       g: parseInt(result[2], 16),
