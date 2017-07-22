@@ -2,7 +2,7 @@
 
 spinner Component for [react](https://facebook.github.io/react/).
 
-Build with [webpack](https://webpack.github.io/) and [CSS Modules](https://github.com/css-modules/css-modules)
+Build with [webpack](https://webpack.github.io/)
 
 [Story book](https://rc-component.github.io/spinner/)
 
