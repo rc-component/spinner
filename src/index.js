@@ -1,4 +1,5 @@
-import React, { Component, PropTypes } from 'react'
+import PropTypes from 'prop-types';
+import React, { Component } from 'react';
 import assign from 'object-assign'
 import spin from './spin'
 import ReactDom from 'react-dom'
